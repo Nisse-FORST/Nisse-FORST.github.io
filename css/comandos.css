@@ -1,0 +1,319 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+
+/*COLOR FONDO*/ /* #252526*/
+/*COLOR BARRA*//*#181818*/
+/*COLOR INTERACCION*//*#ff0055*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+   
+}
+body {
+    font-family: 'Quicksand', sans-serif;
+    background-color:  #252526;
+}
+
+.contenedor {
+    padding: 60px 0;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.titulo {
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 60px;
+    text-transform: uppercase;
+    
+
+}
+
+.invitar{
+    font-family: 'Quicksand', sans-serif;
+    text-decoration: none;
+    color: white;
+    border: 1px solid white ;
+    padding: 10px;
+    border-radius: 100px;
+    font-weight: 800;
+    transition: 1s;
+}
+
+.invitar:hover{
+    background-color: #7289da;
+    border: 1px solid #7289da ;
+    transition: 1s;
+}
+
+.parrafo-descripcion{
+    background-color: white;
+    text-align: center;
+    padding: 40px;
+    font-size: 1.5em;
+}
+
+
+/*COMIENZA MENU*/
+
+.menu{
+    background-color: #181818;
+    height: 75px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;  
+    position: fixed;
+    
+    box-shadow: 5px 0 10px ;
+}
+.logo{
+    color: white;
+    font-size: 35px;
+    padding: 0 80px;
+    font-weight: bold;
+    background-color: transparent;
+    font-family: 'Quicksand', sans-serif;
+    text-transform: uppercase;
+}
+.prefix{
+    color: white;
+    padding-top: 30px;
+    border-bottom: white solid 1px;
+    font-size: 2em;
+    
+
+}
+
+.menu_items{
+    display: flex;
+    list-style: none;
+    background-color: transparent;
+    
+}
+.menu_items li{
+    border-radius: 3px;
+    margin: 0 20px;
+    background-color: transparent;
+}
+.menu_items li a{
+    color: white;
+    text-decoration: none;
+    background-color: transparent;
+    font-size: 18px;
+    display: block;
+    text-transform: uppercase;
+    transition: 0.5s;
+}
+.menu_items li a:hover{
+    color: #c9c9c9;
+    transition: 0.5s;
+}
+
+.btn_menu{
+    margin-right: 30px;
+    font-size: 25px;
+    color: white;
+    cursor: pointer;
+    background-color: transparent;
+ 
+}
+
+.desplegable1:hover .desple{
+    display: block;
+    transition: 1s;
+}
+
+.desple{
+    padding: 10px;
+    background-color: #181818;
+    border-radius:20px ;
+    list-style: none;
+    position: absolute;
+   
+    display: none;
+}
+/*TERMINA MENU*/
+
+
+
+
+/* Header */
+
+header {
+    width: 100%;
+    height: 400px;
+    background: #e7b8fd;
+
+    background: -webkit-linear-gradient(to right, #cb95fd,  hsla(24, 50%, 47%, 0.664)), url(../IMG/COMANDOS-IMAGEN.png);
+ 
+    background: linear-gradient(to right, #cb95fd, hsla(24, 50%, 47%, 0.664)), url(../IMG/COMANDOS-IMAGEN.png);
+  
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+/*Final Header*/
+
+
+
+.logo_discord{
+    stroke: white;
+}
+
+ /*parte superior inicio*/
+
+header .textos-header{
+    display: flex;
+    height: 430px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+   
+}
+
+.textos-header h1{
+    font-size: 50px;
+    color:#fff;
+    padding: 15px;
+}
+
+.textos-header h2{
+    font-size: 30px;
+    font-weight: 300;
+    color:#fff;
+}
+
+.wave{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+
+
+
+
+ /*parte superior final*/
+
+
+
+ .wrap{
+	max-width: 1100px;
+	width: 90%;
+	margin: auto;
+}
+
+
+.wrap hr{
+    margin-top: 60px;
+    margin-bottom: 12px;
+}
+
+.wrap > h1:after{
+	content: '';
+	width: 100%;
+	height: 1px;
+	background: #1B1B1B;
+	margin: 20px 0;
+}
+
+.store-wrapper{
+	display: flex;
+    flex-wrap: wrap;
+   
+}
+
+.category_list{
+    
+    
+	display: flex;
+	flex-direction: column;
+	width: 18%;
+}
+
+.category_list .category_item{
+   
+	display: block;
+	width: 90%;
+	padding: 15px 0;
+	margin-bottom: 20px;
+	background: #181818;
+
+	text-align: center;
+	text-decoration: none;
+	color: #fff;
+}
+
+.category_list .ct_item-active{
+    background: #ffffff;
+    color: #181818;
+    font-weight: 800;
+}
+
+/* PRODUCTOS ============*/
+
+.products-list{
+	width: 82%;
+	
+	flex-wrap: wrap;
+}
+
+
+.products-list .product-item{
+    width: 90%;
+   
+
+    
+	margin-left: 3%;
+	margin-bottom: 25px;
+	box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.22);
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	align-self: flex-start;
+
+	transition: all .4s;
+}
+
+.aclaracion{
+    color: #747474;
+}
+
+.products-list .product-item img{
+    width: 100%;
+  
+}
+
+.products-list .product-item a{
+    display: block;
+    
+	width: 100%;
+	padding: 8px 0;
+	background: #1B1B1B;
+
+    color:#ffffff;
+    font-weight: 800;
+	text-align: center;
+	text-decoration: none;
+}
+
+
+
+
+
+
+

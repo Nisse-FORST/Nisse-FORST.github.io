@@ -1,0 +1,268 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+
+/*COLOR FONDO*/ /* #252526*/
+/*COLOR BARRA*//*#181818*/
+/*COLOR INTERACCION*//*#ff0055*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+   
+}
+body {
+    font-family: 'Quicksand', sans-serif;
+    background-color:  #252526;
+}
+
+.contenedor {
+    padding: 60px 0;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.titulo {
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 60px;
+    text-transform: uppercase;
+    
+
+}
+
+.invitar{
+    font-family: 'Quicksand', sans-serif;
+    text-decoration: none;
+    color: white;
+    border: 1px solid white ;
+    padding: 10px;
+    border-radius: 100px;
+    font-weight: 800;
+    transition: 1s;
+}
+
+.invitar:hover{
+    background-color: #7289da;
+    border: 1px solid #7289da ;
+    transition: 1s;
+}
+
+.parrafo-descripcion{
+    background-color: white;
+    text-align: center;
+    padding: 40px;
+    font-size: 1.5em;
+}
+
+
+/*COMIENZA MENU*/
+
+.menu{
+    background-color: #181818;
+    height: 75px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;  
+    position: fixed;
+    
+    box-shadow: 5px 0 10px ;
+}
+.logo{
+    color: white;
+    font-size: 35px;
+    padding: 0 80px;
+    font-weight: bold;
+    background-color: transparent;
+    font-family: 'Quicksand', sans-serif;
+    text-transform: uppercase;
+}
+.prefix{
+    color: white;
+    padding-top: 30px;
+    border-bottom: white solid 1px;
+    font-size: 2em;
+    
+
+}
+
+.menu_items{
+    display: flex;
+    list-style: none;
+    background-color: transparent;
+    
+}
+.menu_items li{
+    border-radius: 3px;
+    margin: 0 20px;
+    background-color: transparent;
+}
+.menu_items li a{
+    color: white;
+    text-decoration: none;
+    background-color: transparent;
+    font-size: 18px;
+    display: block;
+    text-transform: uppercase;
+    transition: 0.5s;
+}
+.menu_items li a:hover{
+    color: #c9c9c9;
+    transition: 0.5s;
+}
+
+.btn_menu{
+    margin-right: 30px;
+    font-size: 25px;
+    color: white;
+    cursor: pointer;
+    background-color: transparent;
+ 
+}
+
+.desplegable1:hover .desple{
+    display: block;
+    transition: 1s;
+}
+
+.desple{
+    padding: 10px;
+    background-color: #181818;
+    border-radius:20px ;
+    list-style: none;
+    position: absolute;
+   
+    display: none;
+}
+/*TERMINA MENU*/
+
+
+
+
+/* Header */
+
+header {
+    width: 100%;
+    height: 350px;
+    background: #fcb103;
+
+    background: -webkit-linear-gradient(to right, rgb(247, 216, 131),  hsla(24, 50%, 47%, 0.664)), url(../IMG/error.png);
+ 
+    background: linear-gradient(to right, hsla(44, 100%, 55%, 1.00), hsla(24, 50%, 47%, 0.664)), url(../IMG/error.png);
+  
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+/*Final Header*/
+
+
+
+.logo_discord{
+    stroke: white;
+}
+
+ /*parte superior inicio*/
+
+header .textos-header{
+    display: flex;
+    height: 430px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+   
+}
+
+.textos-header h1{
+    font-size: 50px;
+    color:#fff;
+    padding: 15px;
+}
+
+.textos-header h2{
+    font-size: 30px;
+    font-weight: 300;
+    color:#fff;
+}
+
+.wave{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+ /*parte superior final*/
+
+/*Inicio ERROR*/
+.error{
+    
+    padding-bottom: 100px;
+}
+.titulo-error{
+    height: 100%;
+    font-size: 8em;
+    color: white;
+    text-align: center;
+    background-color: transparent;
+    font-weight: 100;
+}
+.parrafo-error{
+    font-size: 2em;
+    text-align: center;
+    background-color: transparent;
+    color: white;
+    padding: 20px;
+    
+}
+.retorno {
+
+  
+   
+    background-color: transparent;
+    text-align: center;
+    padding-bottom:20px ;
+    font-size: 2em;
+    padding: 30px;
+    margin: 10px #fff
+   
+}
+.retorno a {
+   
+    text-decoration: none;
+    color:white;
+    
+    border-radius: 30px;
+    padding: 30px ;
+    
+   background-color: #ffbb00;
+    
+}
+.retorno a:hover{
+ 
+    background-color: #b98b0b;
+
+}
+
+
+/*final ERROR*/
+
+/*FOOTER*/
+
+
+.footer-copyright{
+    padding-top: 10px;
+    background-color: #181818;
+    color: white;
+    text-align: center;
+}
